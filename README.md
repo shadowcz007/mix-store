@@ -9,6 +9,7 @@ DATABASE_URL="postgres://default:hvPum0lALsV4@ep-crimson-moon-97999863.ap-southe
 npm install -g @medusajs/medusa-cli
 medusa new my-medusa-store
 cd my-medusa-store
+
 medusa develop
 
 管理员账号
@@ -19,8 +20,26 @@ medusa user -e some@email.com -p somepassword
 
 
 npm install 安装
+
+初始化数据库：
+medusa migrations run
+
 npm start 开启
 medusa develop 开启
 
 
-:::
+### azure 部署
+也可以用azure的postgress
+
+注意：?sslmode=require 不要漏了
+
+
+azure : postgress
+azure_pg_admin
+
+创建一个新的管理员角色：
+CREATE USER <new_user> CREATEDB CREATEROLE PASSWORD '<StrongPassword!>';
+GRANT azure_pg_admin TO <new_user>;
+
+服务器参数里：azure.extensions
+开启 pg_trgm 插件

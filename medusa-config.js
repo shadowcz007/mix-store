@@ -1,5 +1,5 @@
 const dotenv = require("dotenv");
-console.log(process.env.DATABASE_URL)
+console.log('AZURE_POSTGRESQL_USER',process.env.AZURE_POSTGRESQL_USER)
 let ENV_FILE_NAME = "";
 switch (process.env.NODE_ENV) {
   case "production":

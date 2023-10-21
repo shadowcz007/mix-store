@@ -43,3 +43,14 @@ GRANT azure_pg_admin TO <new_user>;
 
 服务器参数里：azure.extensions
 开启 pg_trgm 插件
+
+
+### 
+azure 虚拟机 Ubuntu 
+- 配置公共ip
+- 安装 sudo apt-get install -y nginx
+- 安装 sudo apt install nodejs   
+- 安装 sudo apt install npm
+- git clone xxx
+- nano (设置.env)
+

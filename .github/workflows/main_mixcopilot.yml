@@ -55,5 +55,5 @@ jobs:
         with:
           app-name: 'mixcopilot'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DE8FA7C3138A4F87A4865AC38BE703F1 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: './build'

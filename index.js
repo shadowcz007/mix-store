@@ -15,7 +15,7 @@ const loaders = require("@medusajs/medusa/dist/loaders/index").default
       })
       const configModule = container.resolve("configModule")
       const port = process.env.PORT ?? configModule.projectConfig.port ?? 9000
-
+      // console.log(`1 is ready on port: ${port}`)
       const server = GracefulShutdownServer.create(
         app.listen(port, (err) => {
           if (err) {

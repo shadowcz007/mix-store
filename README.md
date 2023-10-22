@@ -54,3 +54,21 @@ azure 虚拟机 Ubuntu
 - git clone xxx
 - nano (设置.env)
 
+
+
+## 服务常驻
+
+1、安装 forever
+npm install forever -g
+2、启动服务
+service forever start
+3、使用 forever 启动 js 文件
+forever start index.js
+4、停止 js 文件
+forever stop index.js
+5、启动js文件并输出日志文件
+forever start -l forever.log -o out.log -e err.log index.js
+6、重启js文件
+forever restart index.js
+7、查看正在运行的进程
+forever list

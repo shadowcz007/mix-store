@@ -60,8 +60,6 @@ azure 虚拟机 Ubuntu
 
 1、安装 forever
 npm install forever -g
-2、启动服务
-service forever start
 3、使用 forever 启动 js 文件
 forever start index.js
 4、停止 js 文件

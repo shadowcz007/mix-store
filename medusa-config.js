@@ -1,5 +1,5 @@
 const dotenv = require("dotenv");
-console.log('AZURE_POSTGRESQL_USER',process.env.AZURE_POSTGRESQL_USER)
+// console.log('AZURE_POSTGRESQL_USER',process.env.AZURE_POSTGRESQL_USER)
 let ENV_FILE_NAME = "";
 switch (process.env.NODE_ENV) {
   case "production":
@@ -78,7 +78,6 @@ const projectConfig = {
   admin_cors: ADMIN_CORS,
   // Uncomment the following lines to enable REDIS
   // redis_url: REDIS_URL
-  // port:80
 };
 
 /** @type {import('@medusajs/medusa').ConfigModule} */

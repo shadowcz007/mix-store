@@ -44,6 +44,10 @@ GRANT azure_pg_admin TO <new_user>;
 服务器参数里：azure.extensions
 开启 pg_trgm 插件
 
+### admin的账号密码设置
+medusa user -e some@email.com -p some_password
+
+admin的地址：http://localhost:9000/app
 
 ### 
 azure 虚拟机 Ubuntu 

@@ -5,6 +5,8 @@ vercel先建一个postgres数据库
 
 DATABASE_URL="postgres://default:hvPum0lALsV4@ep-crimson-moon-97999863.ap-southeast-1.postgres.vercel-storage.com:5432/verceldb?sslmode=require"
 
+strip 集成：(sk 开头的)
+STRIPE_API_KEY="sk_test_5..."
 
 npm install -g @medusajs/medusa-cli
 medusa new my-medusa-store

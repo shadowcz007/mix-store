@@ -52,11 +52,22 @@ admin的地址：http://localhost:9000/app
 ### 
 azure 虚拟机 Ubuntu 
 - 配置公共ip
-- 安装 sudo apt-get install -y nginx
-- 安装 sudo apt install nodejs   
-- 安装 sudo apt install npm
-- git clone xxx
+
+<!-- - 安装 sudo apt install nodejs    -->
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+source ~/.bashrc
+nvm install v18.16.0
+
+- git clone https://github.com/shadowcz007/mix-store.git
 - nano (设置.env)
+
+
+
+
+
+
+
 
 
 

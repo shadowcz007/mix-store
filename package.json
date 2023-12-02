@@ -23,9 +23,9 @@
     "start": "cross-env npm run build && medusa start",
     "start:custom": "cross-env npm run build && node --preserve-symlinks --trace-warnings index.js",
     "dev": "cross-env npm run build:server && medusa develop",
-    "forever":"cross-env forever start index.js && forever list",
-    "forever:ls":"cross-env forever list",
-    "forever:stop":"cross-env forever stop index.js && forever list"
+    "forever": "cross-env forever start index.js && forever list",
+    "forever:ls": "cross-env forever list",
+    "forever:stop": "cross-env forever stop index.js && forever list"
   },
   "dependencies": {
     "@medusajs/admin": "^7.1.1",
@@ -46,7 +46,7 @@
     "medusa-fulfillment-manual": "^1.1.38",
     "medusa-interfaces": "^1.3.7",
     "medusa-payment-manual": "^1.0.24",
-    "medusa-payment-stripe": "^6.0.4",
+    "medusa-payment-stripe": "^6.0.6",
     "prism-react-renderer": "^2.0.4",
     "typeorm": "^0.3.16"
   },

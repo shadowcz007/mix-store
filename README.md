@@ -17,6 +17,8 @@ medusa develop
 管理员账号
 medusa user -e some@email.com -p somepassword
 
+medusa user -e 1234@qq.com -p 12345
+
 邀请团队成员加入，复制invite链接发送即可
 
 
